@@ -26,16 +26,16 @@ function set(options) {
     host: options.host, port: +options.port, // bypass?: ;
     sudo: true
   })) {
-    console.log('setting success,🎉');
+    console.log('Whistle作为系统代理，设置成功🎉');
   } else {
-    console.log('setting fail,❌');
+    console.log('Whistle作为系统代理，设置失败,❌');
   }
 }
 
 function clear() {
   if (disableProxy(true)) {
-    console.log('clear ok,🎉');
+    console.log('系统代理清除成功，🎉');
   } else {
-    console.log('clear error,❌');
+    console.log('系统代理清除失败，❌');
   }
 }

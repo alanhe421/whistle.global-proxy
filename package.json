@@ -17,7 +17,8 @@
     "whistle.globalproxy": "bin/index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "npm publish --access=public"
   },
   "dependencies": {
     "commander": "^9.4.0",

@@ -1,8 +1,9 @@
 # whistle-global-proxy
-快速设置whistle为系统代理
+快速设置Whistle为系统代理
 
 ## Usage
-```
+
+```shell
 # 设置系统代理
 npx @stacker/whistle.globalproxy set
 
@@ -15,6 +16,6 @@ npx @stacker/whistle.globalproxy clear
 
 ## Test
 
-```
+```shell
 node bin/index.js
 ```

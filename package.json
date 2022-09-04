@@ -1,0 +1,26 @@
+{
+  "name": "@stacker/whistle.globalproxy",
+  "version": "0.0.1",
+  "description": "快速设置whistle为系统代理",
+  "homepage": "https://github.com/alanhg/whistle-global-proxy#readme",
+  "bugs": {
+    "url": "https://github.com/alanhg/whistle-global-proxy/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alanhg/whistle-global-proxy.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "main": "index.js",
+  "bin": {
+    "whistle.globalproxy": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "commander": "^9.4.0",
+    "set-global-proxy": "^0.1.7"
+  }
+}

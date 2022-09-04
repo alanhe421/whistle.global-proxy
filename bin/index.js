@@ -5,9 +5,9 @@ const {enableProxy, disableProxy} = require('set-global-proxy');
 
 program
   .command(`set`)
-  .option('--host <string>', 'whistle端口', '127.0.0.1')
-  .option('--port <number>', 'whistle端口', '8899')
-  .description('设置whistle为系统代理')
+  .option('--host <string>', 'Whistle端口', '127.0.0.1')
+  .option('--port <number>', 'Whistle端口', '8899')
+  .description('设置Whistle为系统代理')
   .action((options) => {
     set(options);
   });

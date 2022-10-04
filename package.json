@@ -1,6 +1,6 @@
 {
   "name": "@stacker/whistle.globalproxy",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "快速设置whistle为系统代理",
   "homepage": "https://github.com/alanhg/whistle-global-proxy#readme",
   "bugs": {

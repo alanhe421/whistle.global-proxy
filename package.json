@@ -21,7 +21,8 @@
     "publish": "npm publish --access=public"
   },
   "dependencies": {
-    "commander": "^9.4.0",
-    "set-global-proxy": "^0.1.7"
+    "@stacker/set-global-proxy": "^0.1.8",
+    "chalk": "^4.1.2",
+    "commander": "^9.4.0"
   }
 }

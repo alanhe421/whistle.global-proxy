@@ -1,6 +1,6 @@
 {
   "name": "@stacker/whistle.globalproxy",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "快速设置whistle为系统代理",
   "homepage": "https://github.com/alanhg/whistle-global-proxy#readme",
   "bugs": {
@@ -9,6 +9,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alanhg/whistle-global-proxy.git"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "license": "ISC",
   "author": "Alan He",

@@ -1,5 +1,5 @@
 # whistle-global-proxy
-快速设置Whistle为系统代理
+快速设置Whistle为系统代理，当前仅设置HTTP/HTTPS代理
 
 ## Usage
 
